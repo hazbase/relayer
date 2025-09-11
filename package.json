@@ -1,0 +1,43 @@
+{
+  "name": "@hazbase/relayer",
+  "version": "0.0.14",
+  "description": "The relayer SDK that provides gasless execution (meta-transactions) for the hazBase stack.",
+  "author": "IndieSquare Inc <info@hazbase.com>",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "ethers": "^6.12.1"
+  },
+  "peerDependencies": {
+    "@hazbase/auth": "^0.0.11"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "clean": "rimraf dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
