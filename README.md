@@ -1,4 +1,6 @@
 # @hazbase/relayer
+[![npm version](https://badge.fury.io/js/@hazbase%2Frelayer.svg)](https://badge.fury.io/js/@hazbase%2Frelayer)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
 `@hazbase/relayer` is the **relayer SDK** that provides **gasless execution (meta-transactions)** for the hazBase stack.  
