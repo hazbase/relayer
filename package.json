@@ -1,6 +1,6 @@
 {
   "name": "@hazbase/relayer",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "The relayer SDK that provides gasless execution (meta-transactions) for the hazBase stack.",
   "author": "IndieSquare Inc <info@hazbase.com>",
   "keywords": [
