@@ -33,7 +33,7 @@
     "ethers": "^6.12.1"
   },
   "peerDependencies": {
-    "@hazbase/auth": "^0.0.14"
+    "@hazbase/auth": "^0.1.1"
   },
   "scripts": {
     "build": "tsup",
